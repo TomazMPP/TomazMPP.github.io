@@ -22,7 +22,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100;500&display=swap" rel="stylesheet">
 </head>
 <body>  
-
+  <div class="checkbox-container">
+    <input type="checkbox" id="switch" / onclick="brasil()">
+    <label for="switch" class="checkbox-label"></label>
+  </div>
+  <p id="switch">US - BR</p>
   <section class="sec-container">
     <img src="/img/logo.png" id="logo">
 
@@ -41,26 +45,26 @@
     <section class="container-me" id="conteudo">
       <img src="/img/foto1.jfif" alt="" id="foto" class="item-left">
       <div id="txtme" class="item-right">
-      <h1>Hello! I'm <br>Tomaz</h1>
-      <h2>Since I was 8 years old I have been exposed to web development, in a basic way. <br>I had several blogs related to a game called "Club Penguin", which was a browser game for children. I developed my own blogs around that age (using HTML and CSS) and used to write articles about the game, teaching tricks and giving tips. <br>In January 2023 I realized that it was a topic that interested me a lot. Since then I have been testing my knowledge and learning every single day.<br>My learning has been spontaneous and fast given my great interest in the subject and high willingness to learn. I took and am taking several brazilian and foreign courses, and I intend to go to college for Software Engineering at PUC-Minas next semester.</h2>
+      <h1 id="nameH1">Hello! I'm <br>Tomaz</h1>
+      <h2 id="descrip">Since I was 8 years old I have been exposed to web development, in a basic way. <br>I had several blogs related to a game called "Club Penguin", which was a browser game for children. I developed my own blogs around that age (using HTML and CSS) and used to write articles about the game, teaching tricks and giving tips. <br>In January 2023 I realized that it was a topic that interested me a lot. Since then I have been testing my knowledge and learning every single day.<br>My learning has been spontaneous and fast given my great interest in the subject and high willingness to learn. I took and am taking several brazilian and foreign courses, and I intend to go to college for Software Engineering at PUC-Minas next semester.</h2>
     </div>
     </section>
 
     <section class="container-pro" id="Projetos">
-      <h1>Personal Projects</h1>
+      <h1 id="projectsH1">Personal Projects</h1>
       <div id="bin2dec"><a href="/pages/Bin2Dec/index.html">
-        <h2 class="projec">Bin2Dec Converter</h2>
-        <h3>A simple binary to <br>decimal converter</h3>
+        <h2 class="projec" id="bin2">Bin2Dec Converter</h2>
+        <h3 id="desc1">A simple binary to <br>decimal converter</h3>
       </a>
       </div>
       <div id="numbergen"><a href="/pages/Random-Number-Generator/index.html">
-        <h2 class="projec">Random Number Generator</h2>
-        <h3>You can generate a random full, decimal or negative number <br> inside a range</h3>
+        <h2 class="projec" id="rng">Random Number Generator</h2>
+        <h3 id="desc2">You can generate a random full, decimal or negative number <br> inside a range</h3>
       </a>
       </div>
       <div id="timeisit"><a href="/pages/What-time-is-it/index.html">
-        <h2 class="projec">What Time Is It?</h2>
-        <h3>Web application that shows the time and weather for Belo Horizonte and Oslo. Responsive layout changes to time and temperature.</h3>
+        <h2 class="projec" id="time">What Time Is It?</h2>
+        <h3 id="desc3">Web application that shows the time and weather for Belo Horizonte and Oslo. Responsive layout changes to time and temperature.</h3>
       </a>
       </div>
     </section>
@@ -71,7 +75,7 @@
 
     <footer class="footer">
         <div class="footer-row">
-          <p>
+          <p id="rodap">
             - Thank you for your attention! - <br>
             Made by Tomaz
           </p>

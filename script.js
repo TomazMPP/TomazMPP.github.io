@@ -29,6 +29,7 @@ var initialState = {
   proDescription: document.getElementById('desc1').innerHTML,
   proDescription2: document.getElementById('desc2').innerHTML,
   proDescription3: document.getElementById('desc3').innerHTML,
+  proDescription4: document.getElementById('desc4').innerHTML,
   footer: document.getElementById('rodap').innerHTML
 };
 
@@ -65,6 +66,7 @@ function brasil() {
   var proDescription = document.getElementById('desc1')
   var proDescription2 = document.getElementById('desc2')
   var proDescription3 = document.getElementById('desc3')
+  var proDescription4 = document.getElementById('desc4')
   var footer = document.getElementById('rodap')
 
   name.innerHTML = "Olá! Eu sou o <br> Tomaz"
@@ -79,6 +81,7 @@ function brasil() {
   proDescription.innerHTML = "Um simples conversor de binários para decimais"
   proDescription2.innerHTML = "Você pode gerar números aleatórios inteiros, decimais, ou negativos dentro de uma faixa que você escolhe"
   proDescription3.innerHTML = "Aplicação WEB que mostra o tempo e clima de Belo Horizonte(BR) e Oslo (Noruega). Layout responsivo que muda conforme o horário e o clima"
+  proDescription4.innerHTML = "Aplicação WEB que gera número aleatórios para rifas"
   rodap.innerHTML = `- Obrigado pela Visita! - <br>
   Feito pelo Tomaz`
 }
@@ -93,6 +96,7 @@ function english() {
   var proDescription = document.getElementById('desc1')
   var proDescription2 = document.getElementById('desc2')
   var proDescription3 = document.getElementById('desc3')
+  var proDescription4 = document.getElementById('desc4')
   var footer = document.getElementById('rodap')
 
 
@@ -105,6 +109,7 @@ function english() {
   proDescription.innerHTML = initialState.proDescription;
   proDescription2.innerHTML = initialState.proDescription2;
   proDescription3.innerHTML = initialState.proDescription3;
+  proDescription4.innerHTML = initialState.proDescription4;
   rodap.innerHTML = initialState.footer;
 }
 

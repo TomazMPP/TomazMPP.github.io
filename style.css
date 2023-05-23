@@ -145,16 +145,11 @@ footer {
 
 .container-pro {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   max-width: 100%;
   margin-top: 0px;
   margin-bottom: 30px;
-}
-
-.container-pro h1 {
-  text-align: center;
-  margin-bottom: 0px;
 }
 
 .container-pro > div {
@@ -163,12 +158,12 @@ footer {
   justify-content: center;
   align-items: flex-start;
   width: 300px;
-  margin-top: 20px;
   background-color: rgba(0, 0, 0, 0.199);
   border-radius: 15px;
   height: 200px;
   text-align: center;
   align-items: center;
+  margin: 10px;
 }
 
 .container-pro > div > a {

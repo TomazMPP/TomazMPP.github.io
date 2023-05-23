@@ -1,5 +1,8 @@
 <h1 align="center">This is my portfolio website.</h1>
+<p align="center">
 <a href="https://tomazmpp.github.io" target="_blank">✨ Published version ✨</a>
+  <br>
+</p>
   <a href="https://github.com/TomazMPP/TomazMPP.github.io/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>

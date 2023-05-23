@@ -1,4 +1,4 @@
-<h1 align="center">This is my portfolio website.</h1>
+<h1 align="center"><img src="/img/logo.png" width="300px"></h1>
 <p align="center">
 <a href="https://tomazmpp.github.io" target="_blank">✨ Published version ✨</a>
   <br>

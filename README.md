@@ -11,9 +11,9 @@
 </p>
 
 ## 📖 𝙰𝚋𝚘𝚞𝚝 𝙼𝚎
-- 🎓 Studying by myself, planning to join an university next year.
-- 🌐 I'm a cybersecurity entusiast, currently searching and learning pentest also by myself.
-- 👨‍💻 Focused mainly on JavaScript and Python
+- 🎓 I'm currently studying on my own and planning to join a university next year.
+- 🌐 I'm a cybersecurity entusiast, currently searching and learning pentest on my own as well.
+- 👨‍💻 I'm mainly focused on JavaScript/TypeScript.
 
 ## Author
 
